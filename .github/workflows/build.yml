@@ -29,7 +29,7 @@ jobs:
           gradle-version: "8.7"
 
       - name: Build Debug APK (libsamp.so + Launcher)
-        run: gradle assembleDebug --stacktrace
+        run: gradle assembleDebug
 
       - name: Upload CRMP SAMP Mobile APK
         uses: actions/upload-artifact@v4

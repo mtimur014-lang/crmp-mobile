@@ -1,3 +1,4 @@
+#include <cstdio>
 #include "RakNetClient.h"
 
 #include <sys/socket.h>

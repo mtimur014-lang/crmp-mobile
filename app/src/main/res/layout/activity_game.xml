@@ -21,7 +21,7 @@
             android:background="#AA10131C"
             android:gravity="center_vertical"
             android:orientation="horizontal"
-            android:paddingHorizontal="12dp"
+            android:paddingStart="12dp" android:paddingEnd="12dp"
             android:paddingVertical="8dp">
 
             <TextView
@@ -39,7 +39,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="36dp"
                 android:background="@drawable/btn_primary_gradient"
-                android:paddingHorizontal="12dp"
+                android:paddingStart="12dp" android:paddingEnd="12dp"
                 android:text="RAKNET PING"
                 android:textColor="@color/text_primary"
                 android:textSize="12sp" />
@@ -50,7 +50,7 @@
                 android:layout_height="36dp"
                 android:layout_marginStart="8dp"
                 android:background="@drawable/bg_input"
-                android:paddingHorizontal="12dp"
+                android:paddingStart="12dp" android:paddingEnd="12dp"
                 android:text="ВЫХОД"
                 android:textColor="@color/text_primary"
                 android:textSize="12sp" />
@@ -90,7 +90,7 @@
                 android:hint="Введите чат или команду (/query, /connect, /cache)..."
                 android:imeOptions="actionSend"
                 android:inputType="text"
-                android:paddingHorizontal="12dp"
+                android:paddingStart="12dp" android:paddingEnd="12dp"
                 android:textColor="@color/text_primary"
                 android:textColorHint="#6B778F"
                 android:textSize="14sp" />
@@ -101,7 +101,7 @@
                 android:layout_height="44dp"
                 android:layout_marginStart="8dp"
                 android:background="@drawable/btn_primary_gradient"
-                android:paddingHorizontal="16dp"
+                android:paddingStart="16dp" android:paddingEnd="16dp"
                 android:text="ОТПР."
                 android:textColor="@color/text_primary"
                 android:textSize="13sp"

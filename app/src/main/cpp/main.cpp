@@ -1,3 +1,4 @@
+#include <cstdio>
 #include <jni.h>
 #include <android/log.h>
 #include <dlfcn.h>
